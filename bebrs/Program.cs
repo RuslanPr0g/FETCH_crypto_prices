@@ -1,11 +1,9 @@
-﻿using System;
+﻿using Newtonsoft.Json.Linq;
 using System.Diagnostics;
-using System.Threading;
 using Websocket.Client;
-using Newtonsoft.Json.Linq;
 
 Console.CursorVisible = false;
-Stopwatch stopwatch = new Stopwatch();
+Stopwatch stopwatch = new();
 
 try
 {
